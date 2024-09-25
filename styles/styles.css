@@ -1,22 +1,49 @@
 nav{
-    background-color: steelblue;
+    background-color: darkolivegreen;
     padding: 10px;
+    text-align: left;
 }
 nav a{
-    color: white;
+    color: burlywood;
     display: block;
-    padding: 20px;
+    padding: 5px;
 }
 h1{
-    color: steelblue;
+    color: darkolivegreen;
 }
-img{
+main img{
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 3px solid darkgreen;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    align-items: center;
 }
 p{
     padding: 10px;
+}
+main{
+    max-width: auto;
+    text-align: center;
+    text-wrap: balance;
+}
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: burlywood;
+    color: darkgreen;
+    text-align: center;
+    
+}
+aside img{
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+footer{
+    margin-top: 10px;
+    border-top: 2px dotted darkolivegreen;
+    text-align: center;
 }
