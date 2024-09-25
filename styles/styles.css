@@ -23,7 +23,7 @@ p{
     padding: 0px;
 }
 main{
-    max-width: auto;
+    max-width: none;
     text-align: center;
     text-wrap: balance;
 }
