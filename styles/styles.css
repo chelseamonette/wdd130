@@ -19,9 +19,7 @@ main img{
     box-shadow: 0 0 30px gray;
     align-items: center;
 }
-p{
-    padding: 0;
-}
+p{ padding: 0;}
 main{
     max-width: none;
     text-align: center;
