@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --box-background-color: darkolivegreen;
     --secondary-box-color: burlywood;
@@ -13,11 +18,9 @@ nav a{
     color: var(--secondary-box-color);
     display: block;
     padding: 5px;
-    font-family: var(--heading-font);
 }
 h1{
     color: darkolivegreen;
-    font-family: var(--heading-font)
 }
 main img{
     width: 150px;
@@ -25,33 +28,41 @@ main img{
     border: 3px solid darkgreen;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    align-items: center;
+    align-items: right;
+    float: right;
 }
 p{ padding: 0;}
 main{
-    max-width: none;
-    text-align: center;
-    text-wrap: balance;
-    font-family: var(--heading-font);
+    max-width: 700px;
+    text-align: left;
+    padding: 20px;  
 }
 aside{
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: var(--secondary-box-color);
-    color: darkgreen;
     text-align: center;
-    font-family: var(--heading-font);
-    
 }
 aside img{
     width: 200px;
     height: auto;
     align-items: center;
 }
+aside h2{
+    position: relative;
+    color: beige;
+    font-size: medium;
+    top: 25px;
+    left: 0;
+}
 footer{
     margin-top: 10px;
     border-top: 2px dotted var(--box-background-color);
     text-align: center;
+}
+/*Class Selectors*/
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: var(--secondary-box-color);
+    color: darkgreen;
 }
