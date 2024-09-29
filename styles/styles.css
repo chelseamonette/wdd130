@@ -1,15 +1,23 @@
+:root{
+    --box-background-color: darkolivegreen;
+    --secondary-box-color: burlywood;
+    --heading-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 nav{
-    background-color: darkolivegreen;
+    background-color: var(--box-background-color);
     padding: 10px;
     text-align: left;
 }
 nav a{
-    color: burlywood;
+    color: var(--secondary-box-color);
     display: block;
     padding: 5px;
+    font-family: var(--heading-font);
 }
 h1{
     color: darkolivegreen;
+    font-family: var(--heading-font)
 }
 main img{
     width: 150px;
@@ -24,15 +32,17 @@ main{
     max-width: none;
     text-align: center;
     text-wrap: balance;
+    font-family: var(--heading-font);
 }
 aside{
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: burlywood;
+    background-color: var(--secondary-box-color);
     color: darkgreen;
     text-align: center;
+    font-family: var(--heading-font);
     
 }
 aside img{
@@ -42,6 +52,6 @@ aside img{
 }
 footer{
     margin-top: 10px;
-    border-top: 2px dotted darkolivegreen;
+    border-top: 2px dotted var(--box-background-color);
     text-align: center;
 }
