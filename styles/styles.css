@@ -48,11 +48,11 @@ aside img{
     align-items: center;
 }
 aside h2{
-    position: absolute;
     color: beige;
     font-size: medium;
     top: 25px;
     left: 65px;
+    position: absolute;
 }
 footer{
     margin-top: 10px;
