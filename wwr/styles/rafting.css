@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0 auto;
+}
+:root{
+    --primary-color: #0193E0;
+    --secondary-color: #2B4162;
+    --accent1-color: #D7B377;
+    --accent2-color: #f5f0f6;
+    --heading-font: "Cinzel Decorative";
+    --body-font1: "Laila";
+    --body-font2: "Bona Nova SC";
+
+
+    --body-font: 
+}
+header img{
+  position: relative;
+  width: 200px;
+  height: auto;
+  margin: 1px;
+  border: var(--secondary-color) solid 5px;
+}
+nav{
+  font-family: var(--body-font2);
+  color: var(--accent1-color);
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+h1{
+  position: absolute;
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  background-color: rgba(231, 222, 205, 0.5) ; 
+  top: 300px;
+
+}
+header{
+  font-family: var(--body-font2);
+  font-size: x-large;
+  color: var(--secondary-color);
+  position: relative;
+}
+article{
+  position: absolute;
+  font-family: var(--body-font2);
+  color: var(--secondary-color);
+  background-color: rgba(231, 222, 205, 0.5);
+  top: 500px;
+}
+article img{
+  position: relative;
+  max-width: 200px;
+  float: right;
+}
+h2{
+  position: relative;
+  text-align: center;
+  font-family: var(--body-font2);
+  font-size: xx-large;
+}
+section{
+  position: relative;
+  width: auto;
+  height: auto;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-family: var(--body-font1);
+  margin: 5px;
+}
+section img{
+  position: relative;
+  width: 600px;
+  height: auto;
+}
+.hero img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+footer{
+  text-align: center;
+  font-family: var(--body-font2);
+}
+.sociallinks{
+  position: relative;
+  width: auto;
+  height: 30px;
+  bottom: 2px;
+}
