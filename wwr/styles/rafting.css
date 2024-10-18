@@ -22,12 +22,11 @@ header img{
 nav{
   flex: 2 200px;
   display: flex;
-  align-items: center;
 }
 header{
   position: relative;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
   background-color: var(--accent1-color);
   font-family: var(--body-font2);
