@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rocky Mountain Rafting</title>
+    <meta name="description" content="Contact Us, Rocky Mountain Rafting">
+    <meta name="author" content="Chelsea Monette">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC&family=Cinzel+Decorative:wght@700&family=Laila&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/raftinglogo.png" alt="Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="guides">Current Rafting Guides</h1>
+            <div class="employees">
+                <figure class="groups employees1">
+                    <img src="images/employee1.webp" alt="Jake Thompson">
+                    <figcaption>Jake Thompson | Hometown: Durango, Colorado</figcaption>
+                </figure>
+                <p>Background: Jake grew up exploring the San Juan River and has 
+                been rafting since he was a teenager. After studying environmental
+                science in college, he returned to Durango to share his passion 
+                for the outdoors. Jake is known for his laid-back attitude and 
+                expertise in navigating challenging rapids. When he’s not guiding,
+                he volunteers for local conservation efforts.</p>
+                <figure class="groups employees2">
+                    <img src="images/employee2.webp" alt="Emily Hart">
+                    <figcaption>Emily Hart | Hometown: Asheville, North Carolina</figcaption>
+                </figure>
+                <p>Background: Emily grew up in the Blue Ridge Mountains and developed a
+                        love for water sports early on. After earning a degree in outdoor 
+                        recreation, she moved to the rivers of the Southeast. Emily is 
+                        passionate about promoting inclusivity in outdoor sports and often 
+                        leads women-focused rafting trips. Her leadership and safety skills 
+                        have earned her respect in the guiding community, and she loves sharing 
+                        the beauty of nature with others.</p>
+                <figure class="groups employees3">
+                    <img src="images/employee3.webp" alt="Mark Rivera">
+                    <figcaption>Mark Rivera | Hometown: Flagstaff, Arizona</figcaption>
+                </figure>
+                <p>Background: Mark has been a river guide for over a decade, with 
+                        experience on rivers across the Southwest. He is an avid rock 
+                        climber and hiker, often combining these passions with his 
+                        rafting trips. Mark is recognized for his infectious enthusiasm 
+                        and storytelling, making each trip memorable for his clients. 
+                        He also teaches safety and rescue courses for aspiring guides.</p>
+            </div>
+        <div class="information">
+            <h1 class="company-info">Company Information</h1>
+            
+            <div class="icons address">
+                <img src="images/addressicon.png" alt="address">
+                <p>Rocky Mountain National Park, Colorado</p>
+            </div>
+            <div class="icons phone">
+                <img src="images/phoneicon.png" alt="phone">
+                <p>(970)586-1206</p>
+            </div>
+            <div class="icons email">
+                <img src="images/emailicon.png" alt="email">
+                <p>contact@rockymountainrafting.org</p>
+            </div>
+            <div class="map">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d389199.6082660337!2d-105.6764789!3d40.35073195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876979e4455903e9%3A0xfa27ee43a78e8217!2sRocky%20Mountain%20National%20Park!5e0!3m2!1sen!2sus!4v1729397418187!5m2!1sen!2sus" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+        </div>
+        <form>
+            <h1 class="message-us">Send Us A Message</h1>
+            <h2>Send us a message and we'll respond within 24 hours</h2>
+            <div class="column1">
+                <label for="username">Full Name:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="column1">
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <fieldset>
+                <legend>Purpose:</legend>
+                <div class="column2">
+                    <div>
+                        <input type="radio" id="inquiry" name="purpose" value="inquiry" checked >
+                        <label for="inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+            </fieldset>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <div class="checkbox column2">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            </div>
+            <button>Send</button>
+        </form>
+    </main>
+    <footer> 
+        <p> &copy; 2024 | White Water Rafting | Chelsea Monette </p>
+        <nav class="sociallinks">
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://x.com">
+                <img src="images/x.png" alt="x">
+            </a>
+        </nav>
+
+    </footer>
+</body>
+</html>
