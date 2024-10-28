@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Rocky Mountain Rafting</title>
-    <meta name="description" content="Contact Us, Rocky Mountain Rafting">
+    <title>Home | Rocky Mountain Rafting</title>
+    <meta name="description" content="Homepage, Rocky Mountain Rafting">
     <meta name="author" content="Chelsea Monette">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,17 +12,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC&family=Cinzel+Decorative:wght@700&family=Laila&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="homepage">
         <img src="images/raftinglogo.png" alt="Rafting Logo">
-        <nav>
+        <nav class="homebar">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        
+    <main class="homepage">
+        <div class="hero-home">
+            <img src="images/home_main_.jpg" alt="main rafting image">
+            <div class="title">
+                <h1 class="main-hero">Rocky Mountain Rafting</h1>
+            </div>
+            <h2 class="subtitle">"Life Is Better On The Rapids"</h2>
+        </div>
+        <div class="aside">
+            <form class="newsletter">
+                <h1>Sign up for our newsletter to receive info on exclusive
+                    discounts and trips!
+                </h1>
+                <div class="fullname">
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" id="fullname" name="fullname"> 
+                </div>
+                <div>
+                    <label for="email">Email: </label>   
+                    <input type="text" id="email" name="email">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="rafting_trips">
+                <a href="trips.html">
+                    <img src="images/fun_rafting_pic.webp" alt="Fun on the rapids">
+                    <h3>We have a trip for everyone!  Click Here to book your trip of a lifetime today!</h3>
+                </a>
+            </div>
+        </div>
     </main>
     <footer> 
         <p> &copy; 2024 | White Water Rafting | Chelsea Monette </p>
@@ -35,10 +63,7 @@
                 <img src="images/x.png" alt="x">
             </a>
         </nav>
-        <nav class="wireframe">
-            <a href="https://app.moqups.com/y5hL3K7U7JAZxzDw85EJ97fm6sEhiye5/view/page/ad12de680">
-                <img src="images/wireframe.png" alt="wireframe"></a>
-        </nav>
+       
     </footer>
 </body>
 </html>
